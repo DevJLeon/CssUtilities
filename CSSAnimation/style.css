@@ -1,0 +1,24 @@
+#cuadrado{
+    background: #394ead;
+}
+
+.contenedor{
+    height: 300px;
+    width: 300px;
+    animation-name: animacionCuadrado;
+    animation-duration: 3s;
+    animation-delay: 0.2s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacionCuadrado{
+    0%{background: #394ead;left: 0px;top: 0px;}
+    25%{background: #6f7baf;left: 300px;top: 0px;}
+    50%{background: #1f2331;left: 300px;top: 300px;}
+    75%{background: #0c1536;left: 0px;top: 300px;}
+    100%{background: #394ead;left: 0px;top: 0px;}
+    
+}
