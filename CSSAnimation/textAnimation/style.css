@@ -1,5 +1,5 @@
 body{
-    background: tomato;
+    background: #103780;
 }
 
 .contenedor{
@@ -10,13 +10,20 @@ body{
     font-size: 40px;
     line-height: 40px;
     overflow: hidden;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 ul{
     list-style: none;
     padding-left: 10px;
     animation: cambiarTexto;
-    animation-duration: 5s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
 }
 
